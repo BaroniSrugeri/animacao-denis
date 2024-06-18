@@ -1,0 +1,125 @@
+.animacao1{
+    background: blue;
+    width: 100px;
+    height: 50px;
+    animation: div1 6s infinite ;
+    animation-delay: 4s;
+    margin: 10px;
+  }
+  
+  @keyframes div1 {
+    0% {
+      transform: translateX(0px);
+      animation-duration: 5s,2s,5s;
+    }
+    50% {
+        transform: translateX(250px);
+        animation-duration: 2s;
+    }   
+    100% {
+      transform: translateX(250px);
+      animation-duration: 5s;
+    }
+
+  }.animacao2{
+    background: blue;
+    width: 100px;
+    height: 50px;
+    animation: div2 6s infinite ;
+    animation-delay: 4s;
+    margin: 10px;
+  }
+  
+  @keyframes div2 {
+    0% {
+      transform: translateX(0px);
+      animation-duration: 2s;
+    }
+    100% {
+      transform: translateX(250px);
+    }
+
+  }.animacao3{
+    background: blue;
+    width: 100px;
+    height: 50px;
+    animation: div3 3s infinite ;
+    animation-delay: 4s;
+    margin: 10px;
+  }
+  
+  @keyframes div3 {
+    0% {
+      transform: translateX(0px);
+      animation-duration: 5s,2s;
+    }
+    100% {
+      transform: translateX(250px);
+    }
+
+  }.animacao4{
+    background: blue;
+    width: 100px;
+    height: 50px;
+    animation-duration: 2s;
+    animation: div4 6s infinite ;
+    animation-delay: 4s;
+    margin: 10px;
+  }
+  
+  @keyframes div4 {
+    0% {
+      transform: translateX(0px);
+      animation-duration: 2s;
+    }
+    50% {
+        transform: translateX(250px);
+        animation-duration: 2s;
+      }
+      100% {
+        transform: translateX(250px);
+        animation-duration: 5s;
+      }
+  
+  
+  }.animacao5{
+    background: blue;
+    width: 100px;
+    height: 50px;
+    animation: div5 6s infinite ;
+    animation-delay: 4s;
+    margin: 10px;
+  }
+  
+  @keyframes div5 {
+    0% {
+      transform: translateX(0px);
+      animation-duration: 5s,2s,5s;
+    }
+    100% {
+      transform: translateX(250px);
+    }
+
+  }.animacao6{
+    background: blue;
+    width: 100px;
+    height: 50px;
+    animation: div6 3s infinite ;
+    animation-delay: 4s;
+    margin: 10px;
+  }
+  
+  @keyframes div6 {
+    0% {
+      transform: translateX(0px);
+      animation-duration: 5s,5s;
+    }
+    50% {
+      transform: translateX(50px);
+      background-color: aqua;
+    }
+    100% {
+        transform: translateX(250px);
+        background-color: rgb(15, 224, 207);
+      }
+  }
